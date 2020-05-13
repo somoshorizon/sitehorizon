@@ -16,7 +16,7 @@
     <link rel="shortcut icon" href="">
 
     <!--Fonts-->
-    <link href="<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     
     <!--CSS-->
     <link rel="stylesheet" href="css/normalize.css">
@@ -48,7 +48,7 @@
                         <div class="social-icons">
                             <ul>
                                 <a href="https://www.facebook.com/horizonartdesign/"><img src="img/icons/fb-icon.svg"></a></li>
-                                <a class ="icon-insta" href="https://www.instagram.com/somoshorizon/"><img src="img/icons/insta-icon.svg"></a></li>
+                                <a class="icon-insta" href="https://www.instagram.com/somoshorizon/"><img src="img/icons/insta-icon.svg"></a></li>
                             </ul>
                         </div>
                     </ul>
@@ -58,15 +58,18 @@
     </header>
    
     <div class ="section-intro" id="intro">
-        <video id="bg-video" poster="img/road_Moment.jpg" autoplay muted loop>
-            <source src="img/road.mp4" type="video/mp4">
-        </video>
+        <div id="particles-js"></div> 
 
-        <section class="container">
-            <div class="chamada grid-10" id="slogan">
+
+        <section class="cont-intro container">
+            <div class="chamada grid-9">
                 <h1>Criatividade e soluções estratégicas para melhores resultados.</h1>
                 <p>Alcance a expansão máxima de seus horizontes.</p>
             </div>
+
+            <!--<div class="illustration-chamada">
+                <img class="img-chamada" src="img/ilustrations/chamada.svg">
+            </div>-->
             
         </section>
     </div>
@@ -82,8 +85,8 @@
     <div class="section-services" id="services">
         <section class="our-services container">
             <div class="title-section">
-                <h2> Como vamos te ajudar <span class="dot-title">.</span></h2>
-                <div class=title-retangle></div>
+                <h2> Como vamos te ajudar<span class="dot-title">.</span></h2>
+                <div class=title-rectangle></div>
             </div>
             
             <p class="p-section grid-10">Somos o seu parceiro no desenvolvimento da sua ideia. Para isso, vamos usar de uma produção criativa e estratégica e auxiliar a sua marca a atingir os objetivos traçados, causando impacto para as pessoas que você quer atingir.</p>
@@ -119,7 +122,6 @@
                     </div>
                 </div>
             </div>
-
         </section>
     </div>
 
@@ -127,38 +129,83 @@
         <section class="our-clients container">
             <div class="title-section">
                 <h2>Nossos clientes<span class="dot-title">.</span></h2>
-                <div class=title-retangle></div>
+                <div class="title-rectangle"></div>
             </div>
             
             <p class="p-section grid-10">Parceiros com os quais imaginamos e desenvolvemos soluções criativas.</p>
-            <div class="clients-slider">
-                <div class="slider">
-                    <div class="slide-track">
-                        <div class="slide">
-                            <img src="img/logos-clients//Logo-Arbyte-cinza.png" height: 60px width="232.95px" alt="Arbyte" />
-                        </div>
-                        <div class="slide">
-                            <img src="img/logos-clients/movimento-logo.svg" height="60 px" alt="Movimento Impacto" />
-                        </div>
-                        <div class="slide">
-                            <img src="img/logos-clients/logo-japarecords.svg" height="80 px""" alt="Japa Records" />
-                        </div>
-                        <div class="slide">
-                            <img src="img/logos-clients/logo-criatchi.svg" height="60 px" alt="Criatchi Festas" />
-                        </div>
-                        <div class="slide">
-                            <img src="img/logos-clients/logo-cogitare.svg" height="80 px alt="Cogitare Wearing" />
-                        </div>
-                        <div class="slide">
-                            <img src="img/logos-clients/logo-carol.svg" height="60 px" alt="Carol Faiad - Design de Sobrancelhas" />
-                        </div>
-                    
-                    </div>
+            <div class="clients-grid">
+                <ul>
+                    <li>
+                        <img class="logo-1" src="img/logos-clients/Logo-Arbyte-cinza.png">
+                    </li>
+                    <li>
+                        <img class="logo-1" src="img/logos-clients/movimento-logo.svg">
+                    </li>
+                    <li>
+                        <img class="logo-2" src="img/logos-clients/logo-japarecords.svg">
+                    </li>
+                    <li>
+                        <img class="logo-1" src="img/logos-clients/logo-criatchi.svg">
+                    </li>
+                    <li>
+                        <img class="logo-2" src="img/logos-clients/logo-cogitare.svg">
+                    </li>
+                    <li>
+                        <img class="logo-1" src="img/logos-clients/logo-carol.svg">
+                    </li>
+                </ul>
+            </div>
+        </section>   
+    </div>
+
+    <div class="section-contact" id="contact">
+        <section class="our-contacts container">
+            <div class="title-section">
+                <h2>Vamos impactar juntos<span class="dot-title">.</span></h2>
+                <div class="title-rectangle"></div>
+            </div>
+            
+            <p class="p-section grid-10">O que acha de nos contar a sua história? Tome o primeiro passo para a expansão do seu horizonte. Contate-nos.</p>
+            <div class="infos-contact">
+                <div class="line-contact">
+                    <div class="contact-rectangle"></div>
+                    <p class="text-contact text-telephone">+55 21 97191-4638</p>
+                </div>
+                <div class="line-contact">
+                    <div class="contact-rectangle"></div>
+                    <p class="text-contact text-email">contato@somoshorizon.com.br</p>
                 </div>
             </div>
         </section>
     </div>
 
+    <footer class="footer-bg">
+        <section class="cont-footer container">
+
+            <div class="logo-footer grid-2">
+                <img src="img/logos-horizon/icon-hrz.svg">
+            </div>
+            <div class="empresa-infos grid-5">
+                <h5 class="nome-horizon">Agência Horizon</h5>
+                <h6 class="address-horizon">São Gonçalo, Rio de Janeiro - Brasil.</h6>                
+            </div>
+            <div class="social-slogan">
+                <div class="ft-socialicons">
+                    <ul class="icons-ft">
+                        <li>
+                            <a class="ft-fb"><img src="img/icons/ft-fb-icon.svg"></a>
+                        </li>
+                        <li>
+                            <a class="ft-insta"><img src="img/icons/ft-insta-icon.svg"></a>
+                        </li>
+                    </ul>
+                </div>
+                <h5 class="ft-slogan">Design + solutions = results.</h5>
+            </div>
+
+        </section>
+
+    </footer>
 
    
 
@@ -166,8 +213,13 @@
     <!-- JavaScript -->
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
-	<script type="module" src="js/script.js"></script>
-	<!-- JavaScript -->
+    <script type="module" src="js/script.js"></script>
+    <!-- JavaScript -->
+
+    <!-- JS Particles -->
+    <script src="js/particles.js"></script>
+    <script src="js/particleapp.js"></script>
+ 
 
 </body>
 </html>
