@@ -350,6 +350,10 @@ img {
 	align-items: center;
 }
 
+.img-logo-footer {
+	height: 85px;
+}
+
 .nome-horizon {
 	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
