@@ -106,31 +106,31 @@ img {
 	margin-left: 16px;
 }
 
+
 .section-intro {
-	position: relative;
 	height: 100vh;
 	z-index: -100;
 	overflow: hidden;
-	
 }
 
-#bg-video {
-	position: absolute;
+#particles-js{
+	position:absolute;
+	width: 100%;
+	height: 100%;
 	z-index: -1;
-	left: 0;
-	top: -300px;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
+	background-color: #ff8500;
+	background-image: url("");
+	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 50% 50%;
 }
 
 
-#slogan {
-	position: absolute;
-	top: 266px;;
 
+.cont-intro {
+	height: 100%;
+	display: flex;
+	align-items: center;
 }
 
 
@@ -139,10 +139,9 @@ img {
 	font-family: 'Open Sans', sans-serif;;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 41.053px;
+	font-size: 36.491px;
 	line-height: 120%;
-
-	color: #FF8500;
+	color: #fff;
 }
 
 .chamada p {
@@ -152,8 +151,11 @@ img {
 	font-size: 22.781px;
 	line-height: 140%;
 	padding-top: 10px;
+	color: #fff;
+}
 
-	color: #FFF;
+.img-chamada {
+	height: 224px;
 }
 
 .section-nos {
@@ -176,7 +178,7 @@ img {
 	font-family: 'Open Sans', sans-serif;;
 	font-style: normal;
 	font-weight: 800;
-	font-size: 46.184px;
+	font-size: 36.491px;
 	line-height: 120%;
 
 	color: #808080;
@@ -192,7 +194,7 @@ img {
 	color: #FF8500;
 }
 
-.title-retangle {
+.title-rectangle {
 	margin-top: 5px;
 	margin-left: 24px;
 	width: 160px;
@@ -279,6 +281,124 @@ img {
 
 	color: #727272;
 }
+
+.our-clients {
+	padding-bottom: 200px;
+}
+
+.logo-1 {
+	height: 60px;
+}
+
+.logo-2 {
+	height: 80px;
+}
+
+.clients-grid {
+	display: flex;
+	padding: 80px 100px 0 100px;
+	text-align: center;
+}
+
+.clients-grid li {
+	display: inline-block;
+	padding: 0 20px;
+	padding-bottom: 30px;
+}
+
+.our-contacts {
+	padding-bottom: 200px;
+}
+
+.infos-contact {
+	display: inline-block;
+	padding-top: 80px;
+}
+
+.line-contact {
+	display: flex;
+	align-items: center;
+}
+
+.contact-rectangle {
+	width:69px;
+	height: 4px;
+	margin-top: 2px;
+	margin-right: 10px;
+	background: #FF8500;
+	border-radius: 50px;
+}
+
+.text-contact {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25.629px;
+
+	color: #FF8500;
+}
+
+.footer-bg {
+	width: 100%;
+	height: 320px;
+	background: #FF8500;
+}
+
+.cont-footer {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.nome-horizon {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32.437px;
+	color: #FFFFFF;
+}
+
+.address-horizon {
+	padding-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.social-slogan {
+	margin-left: auto;
+	text-align: right;
+}
+
+.ft-socialicons {
+	display: inline-flex;
+	text-align: right;
+	align-items: center;
+}
+
+.ft-socialicons li{
+	display: inline-block;
+	margin-left: 16px;
+}
+
+.ft-socialicons img{
+	height: 35px;
+}
+
+
+.ft-slogan {
+	padding-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22.781px;
+	line-height: 120%;
+	color: #FFFFFF;
+}
+
+
 
 @media only screen and (max-width: 1000px) {
 	
