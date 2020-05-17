@@ -108,6 +108,7 @@ img {
 
 
 .section-intro {
+	
 	height: 100vh;
 	z-index: -100;
 	overflow: hidden;
@@ -129,6 +130,7 @@ img {
 	height: 100%;
 	display: flex;
 	align-items: center;
+	padding-top: 90px;
 }
 
 .chamada h1 {
@@ -326,16 +328,43 @@ button:focus, .button:active {
 	height: 80px;
 }
 
-.clients-grid {
+.logos-clients {
 	display: flex;
-	padding: 80px 100px 0 100px;
-	text-align: center;
+	justify-content: center;
+	padding-top: 80px;
 }
 
-.clients-grid li {
-	display: inline-block;
-	padding: 0 20px;
-	padding-bottom: 30px;
+.new-clients-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 40px;
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.a .client-logo {
+	width: 232.95px;
+	height: 60px;
+}
+
+.b .client-logo {
+	height: 80px;
+}
+
+.c .client-logo {
+	height: 80px;
+}
+
+.e .client-logo {
+	height: 90px;
+}
+
+.f .client-logo {
+	height: 80px;
 }
 
 .our-contacts {
@@ -592,6 +621,10 @@ button:focus, .button:active {
 		justify-content: center;
 	}
 
+	.img-logo-footer {
+		height: 60px;
+	}
+
 	.empresa-infos {
 		text-align: center;
 	}
@@ -610,6 +643,37 @@ button:focus, .button:active {
 
 	.social-slogan {
 		padding-top: 30px;
+	}
+
+	.new-clients-grid {
+		display: grid;
+		grid-template-columns: 180px;
+		grid-gap: 40px;
+	}
+
+	.logos-clients {
+		padding-top: 40px;
+	}
+
+	.a .client-logo {
+		width: 232.95px;
+		height: 60px;
+	}
+	
+	.b .client-logo {
+		height: 80px;
+	}
+	
+	.c .client-logo {
+		width: 100px;
+	}
+	
+	.e .client-logo {
+		height: 90px;
+	}
+	
+	.f .client-logo {
+		height: 80px;
 	}
 
 }
