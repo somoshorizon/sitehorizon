@@ -44,7 +44,7 @@ img {
 
 .logo {
 	float: left;
-	padding: 10px;
+	padding: 10px 10px 10px 0;
 	width: 142.55px;
 	
 
@@ -125,15 +125,11 @@ img {
 	background-position: 50% 50%;
 }
 
-
-
 .cont-intro {
 	height: 100%;
 	display: flex;
 	align-items: center;
 }
-
-
 
 .chamada h1 {
 	font-family: 'Open Sans', sans-serif;;
@@ -147,12 +143,47 @@ img {
 .chamada p {
 	font-family: 'Open Sans', sans-serif;;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 22.781px;
 	line-height: 140%;
 	padding-top: 10px;
 	color: #fff;
 }
+
+.button-branco {
+	background-color: #fff;
+	border: 2px solid #FFF; 
+	padding: 10px 24px 10px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 80px;
+	margin-top: 12px;
+	
+}
+
+.button-branco a {
+	color: #ff8500;
+	font-size: 16px;
+	font-weight: 600;
+	display: inline-block;
+}
+
+.button-branco a:hover {
+	color: #E37600;
+
+}
+
+.button-branco .seta-btn {
+	font-weight: 900;
+	margin-left: 8px;
+}
+
+button:focus, .button:active {
+	outline: none !important;
+	box-shadow: none !important;
+  }
+
 
 .img-chamada {
 	height: 224px;
@@ -210,7 +241,7 @@ img {
 	font-weight: normal;
 	font-size: 20.25px;
 	line-height: 120%;
-	padding: 40px 0 0 0 !important;
+	padding: 40px 0 0 0;
 	margin-left: 0!important;
 
 	color: #727272;
@@ -224,6 +255,7 @@ img {
 }
 
 .cards-services {
+	width: 100%;
 	display: inline-flex;
 	padding-top: 80px;
 	justify-content: center;
@@ -311,18 +343,18 @@ img {
 }
 
 .infos-contact {
-	display: inline-block;
+	display: inline-grid;
 	padding-top: 80px;
 }
 
 .line-contact {
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 }
 
 .contact-rectangle {
-	width:69px;
-	height: 4px;
+	width:40px;
+	height: 8px;
 	margin-top: 2px;
 	margin-right: 10px;
 	background: #FF8500;
@@ -363,10 +395,9 @@ img {
 }
 
 .address-horizon {
-	padding-top: 10px;
 	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 300;
 	font-size: 18px;
 	color: #FFFFFF;
 }
@@ -411,11 +442,10 @@ img {
 		width: 30px;
 		height: 30px;
 		border-top: 4px solid;
-		margin: 16px 10px 10px 0;
+		margin: 16px 1px 10px 0;
 		float: right;
 		position: relative;
 		cursor: pointer;
-		-webkit-backface-visibility: hidden;
 		margin-left: auto;
 	}
 
@@ -454,7 +484,7 @@ img {
 		justify-content: center;
 		background: #FFF;
 		padding: 40px 40px 0 40px;
-		top: 91px;
+		top: 89px;
 		right: 0px;
 		opacity: 0;
 		visibility: hidden;
@@ -462,8 +492,6 @@ img {
 		transition: .3s;
 		height: 100vh;
 		width: 100%;
-		
-		
 	}
 
 	.menu-nav.mobile-menu.active {
@@ -504,3 +532,84 @@ img {
 	.menu nav .menu-links li {
 		margin-left: 0px !important;
 	}
+
+}
+
+
+@media (max-width: 768px) {
+
+	.cards-services {
+		display: block;
+		padding-top: 40px;
+	}
+
+	.card-service {
+		width: auto;
+	}
+
+	.card2 {
+		margin-left: 0;
+		margin-top: 30px;
+	}
+
+	.infos-contact {
+		padding-top: 20px;
+	}
+
+	.contact-rectangle {
+		width: 20px;
+	}
+
+	.text-contact {
+		font-size: 16px;
+	}
+
+	.title-section h2 {
+		font-size: 25.629px;
+		line-height: 15px;
+	}
+
+	.title-rectangle {
+		width: 80px;
+	}
+
+	.p-section {
+		padding-top: 20px;
+		font-size: 16px;
+	}
+
+	.p-card {
+		font-size: 16px;
+	}
+
+	.cont-footer {
+		display: block;
+		padding: 60px 0;
+	}
+
+	.logo-footer {
+		display: flex;
+		justify-content: center;
+	}
+
+	.empresa-infos {
+		text-align: center;
+	}
+
+	.social-slogan {
+		text-align: center;
+	}
+
+	.ft-socialicons li {
+		margin-left: 0;
+	}
+
+	.footer-bg {
+		height: auto;
+	}
+
+	.social-slogan {
+		padding-top: 30px;
+	}
+
+}
